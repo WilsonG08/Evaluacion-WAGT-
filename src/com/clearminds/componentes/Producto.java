@@ -42,7 +42,7 @@ public class Producto {
 	// Metodo incrementar Precio
 	public void incrementarPrecio(int porcentajeIncremento) {
 		double incremento;
-		incremento = (porcentajeIncremento/100)*precio;
+		incremento = (porcentajeIncremento/100.0) * precio;
 		precio += incremento;
 	}
 	
