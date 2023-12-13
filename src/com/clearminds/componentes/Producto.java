@@ -7,7 +7,7 @@ public class Producto {
 	private String codigo;
 
 	// Constructor con 3 parametros
-	public Producto(String nombre, String codigo, double precio) {
+	public Producto(String codigo, String nombre, double precio) {
 		super();
 		this.nombre = nombre;
 		this.precio = precio;
