@@ -1,5 +1,5 @@
 # EvaluacionWAGT
 --------------
 # Clase Producto y TestProducto
+![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/60fb6fb1-b8b8-4189-b235-1eec27d8f04e)
 
-![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/49387333-186b-4edf-9f63-f87767e6390f)
