@@ -30,22 +30,20 @@ public class MaquinaDulces {
 	}
 
 	public Celda buscarCelda(String codigoCelda) {
-	    if (celda1 != null && celda1.getCodigo().equals(codigoCelda)) {
-	        return celda1;
-	    }
-	    if (celda2 != null && celda2.getCodigo().equals(codigoCelda)) {
-	        return celda2;
-	    }
-	    if (celda3 != null && celda3.getCodigo().equals(codigoCelda)) {
-	        return celda3;
-	    }
-	    if (celda4 != null && celda4.getCodigo().equals(codigoCelda)) {
-	        return celda4;
-	    }
-	    return null;
+		if (celda1 != null && celda1.getCodigo().equals(codigoCelda)) {
+			return celda1;
+		}
+		if (celda2 != null && celda2.getCodigo().equals(codigoCelda)) {
+			return celda2;
+		}
+		if (celda3 != null && celda3.getCodigo().equals(codigoCelda)) {
+			return celda3;
+		}
+		if (celda4 != null && celda4.getCodigo().equals(codigoCelda)) {
+			return celda4;
+		}
+		return null;
 	}
-
-
 
 	public void cargarProducto(Producto producto, String codigoCelda, int cantidadInicial) {
 		Celda celdaRecuperada = buscarCelda(codigoCelda);
@@ -54,57 +52,31 @@ public class MaquinaDulces {
 		}
 	}
 
-	/*
 	public void mostrarProductos() {
-		System.out.println("**** PRODUCTOS ****");
-		System.out.println("Celda 1:");
-		System.out.println(
-				"Nombre : " + celda1.getProducto().getNombre() + " \nPrecio: " + celda1.getProducto().getPrecio()
-						+ "\nCodigo: " + celda1.getCodigo() + " \nStock: " + celda1.getStock());
-
-		System.out.println("\nCelda 2:");
-		System.out.println(
-				"Nombre : " + celda2.getProducto().getNombre() + " \nPrecio: " + celda2.getProducto().getPrecio()
-						+ "\nCodigo: " + celda2.getCodigo() + " \nStock: " + celda2.getStock());
-		System.out.println("\nCelda 3:");
-		System.out.println(
-				"Nombre : " + celda3.getProducto().getNombre() + " \nPrecio: " + celda3.getProducto().getPrecio()
-						+ "\nCodigo: " + celda3.getCodigo() + " \nStock: " + celda3.getStock());
-		System.out.println("\nCelda 4:");
-		System.out.println(
-				"Nombre : " + celda4.getProducto().getNombre() + " \nPrecio: " + celda4.getProducto().getPrecio()
-						+ "\nCodigo: " + celda4.getCodigo() + " \nStock: " + celda4.getStock());
-
-	}
-*/
-	
-	
-	public void mostrarProductos() {
-	    System.out.println("*********** CELDA A1");
-	    imprimirDetallesCelda(celda1);
-	    System.out.println("*********** CELDA A2");
-	    imprimirDetallesCelda(celda2);
-	    System.out.println("*********** CELDA B1");
-	    imprimirDetallesCelda(celda3);
-	    System.out.println("*********** CELDA B2");
-	    imprimirDetallesCelda(celda4);
-	    System.out.println("Saldo: " + saldo);
+		System.out.println("*********** CELDA A1");
+		imprimirDetallesCelda(celda1);
+		System.out.println("*********** CELDA A2");
+		imprimirDetallesCelda(celda2);
+		System.out.println("*********** CELDA B1");
+		imprimirDetallesCelda(celda3);
+		System.out.println("*********** CELDA B2");
+		imprimirDetallesCelda(celda4);
+		System.out.println("Saldo: " + saldo);
 	}
 
 	private void imprimirDetallesCelda(Celda celda) {
-	    if (celda != null) {
-	        System.out.println("Stock : " + celda.getStock());
-	        if (celda.getProducto() != null) {
-	            System.out.println("Nombre: Producto: " + celda.getProducto().getNombre());
-	            System.out.println("Precio Producto : " + celda.getProducto().getPrecio());
-	            System.out.println("Codigo: Producto: " + celda.getProducto().getCodigo());
-	        } else {
-	            System.out.println("La celda no tiene producto!!!");
-	        }
-	    }
+		if (celda != null) {
+			System.out.println("Stock : " + celda.getStock());
+			if (celda.getProducto() != null) {
+				System.out.println("Nombre: Producto: " + celda.getProducto().getNombre());
+				System.out.println("Precio Producto : " + celda.getProducto().getPrecio());
+				System.out.println("Codigo: Producto: " + celda.getProducto().getCodigo());
+			} else {
+				System.out.println("La celda no tiene producto!!!");
+			}
+		}
 	}
 
-	
 	public Producto buscarProductoEnCelda(String codigoCelda) {
 		Celda celdaBuscada = buscarCelda(codigoCelda);
 
