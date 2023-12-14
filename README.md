@@ -49,8 +49,11 @@
 
 ![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/96e8ac71-b9f4-48a3-bab1-43992481dbd2)
 
+------------
 
+# TestIncrementarProductos
 
+![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/ed4d55f6-7dfd-4d39-8763-9e5931705631)
 
 
 
