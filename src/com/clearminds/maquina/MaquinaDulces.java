@@ -61,11 +61,12 @@ public class MaquinaDulces {
 		imprimirDetallesCelda(celda3);
 		System.out.println("*********** CELDA B2");
 		imprimirDetallesCelda(celda4);
-		System.out.println("Saldo: " + saldo);
+		// System.out.println("Saldo: " + saldo);
 	}
 
 	private void imprimirDetallesCelda(Celda celda) {
 		if (celda != null) {
+			System.out.println("Saldo: " + saldo);
 			System.out.println("Stock : " + celda.getStock());
 			if (celda.getProducto() != null) {
 				System.out.println("Nombre: Producto: " + celda.getProducto().getNombre());
@@ -74,6 +75,7 @@ public class MaquinaDulces {
 			} else {
 				System.out.println("La celda no tiene producto!!!");
 			}
+			//System.out.println("Saldo: " + saldo);
 		}
 	}
 
@@ -136,10 +138,10 @@ public class MaquinaDulces {
 			double precioProducto = celdaBuscada.getProducto().getPrecio();
 
 			saldo += precioProducto;
-		}
 
-		mostrarProductos();
-		System.out.println("Saldo actual de la máquina: " + saldo);
+			mostrarProductos();
+			System.out.println("Saldo actual de la máquina: " + saldo);
+		}
 	}
 
 	public double venderConCambio(String codigoCelda, double valorIngresado) {
