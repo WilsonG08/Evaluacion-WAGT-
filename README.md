@@ -62,5 +62,8 @@
 ![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/2358eec6-9864-4769-9fc4-9df5b2e24532)
 
 
+--------------
+# TestVenderConCambio
+![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/91c298be-a884-4858-99d5-716c7d523a45)
 
 
