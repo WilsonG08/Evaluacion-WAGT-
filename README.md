@@ -25,6 +25,12 @@
 
 ![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/45b0f21e-9f2a-4604-8a96-1a437be6d925)
 
+-----------
+# TestBuscarProducto
+
+![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/0d321836-f9a8-427d-a769-b8dc31d97e5c)
+
+
 
 
 
