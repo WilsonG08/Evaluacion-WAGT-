@@ -37,6 +37,13 @@
 
 ![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/fe39c1d4-d2fe-4cb3-bc3a-0dffa28377e5)
 
+-------------------
+
+# TestConsultarPrecio
+
+![image](https://github.com/WilsonG08/EvaluacionWAGT/assets/117754219/4a89a7c6-e43b-4a6b-8609-a7c3598c6173)
+
+
 
 
 
